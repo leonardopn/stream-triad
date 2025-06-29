@@ -1,0 +1,6 @@
+js_times=(4.337203 4.317826)
+js_bandwidths=(0.553352 0.555835)
+chapel_times=(2.3049 1.90647)
+chapel_bandwidths=(1.04126 1.25887)
+c_times=(0.710476 0.620727)
+c_bandwidths=(3.378016 3.866433)
