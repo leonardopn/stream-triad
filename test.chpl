@@ -11,7 +11,7 @@ proc main() {
 
     var t: stopwatch;
 
-    writeln("Iniciando STREAM Triad em ", numLocales, " locales...");
+    writeln("Iniciando STREAM Triad em ", numLocales, " locales com ", here.maxTaskPar, " threads por locale...");
     writeln("Tamanho do Vetor: ", n);
 
     const ProblemSpace = {1..n} dmapped new blockDist(boundingBox={1..n});
