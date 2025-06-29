@@ -35,7 +35,7 @@ proc main() {
 
     writeln("Tempo de execução (cálculo principal): ", t.elapsed(), " segundos.");
 
-    const numBytes = 3 * n * numBytes(real);
-    const bandwidth = numBytes / t.elapsed() / 1.0e9; 
+    const totalBytes = 3 * n * 8; // 8 bytes por real (64 bits)
+    const bandwidth = totalBytes / t.elapsed() / 1.0e9; 
     writeln("Largura de banda: ", bandwidth, " GB/s");
 }
